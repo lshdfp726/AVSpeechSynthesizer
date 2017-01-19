@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32749C021E2F49E600D84086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C011E2F49E600D84086 /* main.m */; };
+		32749C051E2F49E600D84086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C041E2F49E600D84086 /* AppDelegate.m */; };
+		32749C081E2F49E600D84086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C071E2F49E600D84086 /* ViewController.m */; };
+		32749C0B1E2F49E600D84086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32749C091E2F49E600D84086 /* Main.storyboard */; };
+		32749C0D1E2F49E600D84086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32749C0C1E2F49E600D84086 /* Assets.xcassets */; };
+		32749C101E2F49E600D84086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32749C0E1E2F49E600D84086 /* LaunchScreen.storyboard */; };
+		32749C1B1E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C1A1E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.m */; };
+		32749C261E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C251E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.m */; };
+		32749C3B1E2F4B7600D84086 /* AVSpeechSyn.m in Sources */ = {isa = PBXBuildFile; fileRef = 32749C3A1E2F4B7600D84086 /* AVSpeechSyn.m */; };
+		B4BE41568C7C3313A7D93782 /* libPods-AVF_NSSpeechSynthesizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAC43E65B2EBBF4B064101 /* libPods-AVF_NSSpeechSynthesizer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32749C171E2F49E600D84086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32749BF51E2F49E600D84086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32749BFC1E2F49E600D84086;
+			remoteInfo = AVF_NSSpeechSynthesizer;
+		};
+		32749C221E2F49E600D84086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32749BF51E2F49E600D84086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32749BFC1E2F49E600D84086;
+			remoteInfo = AVF_NSSpeechSynthesizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B48305269EB83F4C42B5160 /* Pods-AVF_NSSpeechSynthesizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVF_NSSpeechSynthesizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVF_NSSpeechSynthesizer/Pods-AVF_NSSpeechSynthesizer.release.xcconfig"; sourceTree = "<group>"; };
+		32749BFD1E2F49E600D84086 /* AVF_NSSpeechSynthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVF_NSSpeechSynthesizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32749C011E2F49E600D84086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32749C031E2F49E600D84086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32749C041E2F49E600D84086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32749C061E2F49E600D84086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32749C071E2F49E600D84086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32749C0A1E2F49E600D84086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32749C0C1E2F49E600D84086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32749C0F1E2F49E600D84086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32749C111E2F49E600D84086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32749C161E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVF_NSSpeechSynthesizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32749C1A1E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVF_NSSpeechSynthesizerTests.m; sourceTree = "<group>"; };
+		32749C1C1E2F49E600D84086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32749C211E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVF_NSSpeechSynthesizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32749C251E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVF_NSSpeechSynthesizerUITests.m; sourceTree = "<group>"; };
+		32749C271E2F49E600D84086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32749C331E2F4A7500D84086 /* DefineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineConfig.h; sourceTree = "<group>"; };
+		32749C341E2F4A7500D84086 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		32749C391E2F4B7600D84086 /* AVSpeechSyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSpeechSyn.h; sourceTree = "<group>"; };
+		32749C3A1E2F4B7600D84086 /* AVSpeechSyn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSpeechSyn.m; sourceTree = "<group>"; };
+		93AAD04E1C877DAD21F5E1DF /* Pods-AVF_NSSpeechSynthesizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVF_NSSpeechSynthesizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVF_NSSpeechSynthesizer/Pods-AVF_NSSpeechSynthesizer.debug.xcconfig"; sourceTree = "<group>"; };
+		B3BAC43E65B2EBBF4B064101 /* libPods-AVF_NSSpeechSynthesizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVF_NSSpeechSynthesizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32749BFA1E2F49E600D84086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BE41568C7C3313A7D93782 /* libPods-AVF_NSSpeechSynthesizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C131E2F49E600D84086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C1E1E2F49E600D84086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32749BF41E2F49E600D84086 = {
+			isa = PBXGroup;
+			children = (
+				32749BFF1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */,
+				32749C191E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests */,
+				32749C241E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests */,
+				32749BFE1E2F49E600D84086 /* Products */,
+				60F6CF3EEDADCBA4FEB31689 /* Pods */,
+				7C68E0D8E7F9B9523C9C5D5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32749BFE1E2F49E600D84086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32749BFD1E2F49E600D84086 /* AVF_NSSpeechSynthesizer.app */,
+				32749C161E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.xctest */,
+				32749C211E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32749BFF1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				32749C351E2F4ABE00D84086 /* NSSpeechSynthesizer */,
+				32749C031E2F49E600D84086 /* AppDelegate.h */,
+				32749C041E2F49E600D84086 /* AppDelegate.m */,
+				32749C061E2F49E600D84086 /* ViewController.h */,
+				32749C071E2F49E600D84086 /* ViewController.m */,
+				32749C091E2F49E600D84086 /* Main.storyboard */,
+				32749C0C1E2F49E600D84086 /* Assets.xcassets */,
+				32749C0E1E2F49E600D84086 /* LaunchScreen.storyboard */,
+				32749C111E2F49E600D84086 /* Info.plist */,
+				32749C001E2F49E600D84086 /* Supporting Files */,
+			);
+			path = AVF_NSSpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		32749C001E2F49E600D84086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32749C331E2F4A7500D84086 /* DefineConfig.h */,
+				32749C341E2F4A7500D84086 /* PrefixHeader.pch */,
+				32749C011E2F49E600D84086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32749C191E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				32749C1A1E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.m */,
+				32749C1C1E2F49E600D84086 /* Info.plist */,
+			);
+			path = AVF_NSSpeechSynthesizerTests;
+			sourceTree = "<group>";
+		};
+		32749C241E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32749C251E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.m */,
+				32749C271E2F49E600D84086 /* Info.plist */,
+			);
+			path = AVF_NSSpeechSynthesizerUITests;
+			sourceTree = "<group>";
+		};
+		32749C351E2F4ABE00D84086 /* NSSpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				32749C391E2F4B7600D84086 /* AVSpeechSyn.h */,
+				32749C3A1E2F4B7600D84086 /* AVSpeechSyn.m */,
+			);
+			path = NSSpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		60F6CF3EEDADCBA4FEB31689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93AAD04E1C877DAD21F5E1DF /* Pods-AVF_NSSpeechSynthesizer.debug.xcconfig */,
+				2B48305269EB83F4C42B5160 /* Pods-AVF_NSSpeechSynthesizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C68E0D8E7F9B9523C9C5D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAC43E65B2EBBF4B064101 /* libPods-AVF_NSSpeechSynthesizer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32749BFC1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32749C2A1E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizer" */;
+			buildPhases = (
+				6C11C476EF0A49C5B185875E /* [CP] Check Pods Manifest.lock */,
+				32749BF91E2F49E600D84086 /* Sources */,
+				32749BFA1E2F49E600D84086 /* Frameworks */,
+				32749BFB1E2F49E600D84086 /* Resources */,
+				89771176D9B2368D82C0ABAA /* [CP] Embed Pods Frameworks */,
+				34849D5740C04101787C2D14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVF_NSSpeechSynthesizer;
+			productName = AVF_NSSpeechSynthesizer;
+			productReference = 32749BFD1E2F49E600D84086 /* AVF_NSSpeechSynthesizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32749C151E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32749C2D1E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizerTests" */;
+			buildPhases = (
+				32749C121E2F49E600D84086 /* Sources */,
+				32749C131E2F49E600D84086 /* Frameworks */,
+				32749C141E2F49E600D84086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32749C181E2F49E600D84086 /* PBXTargetDependency */,
+			);
+			name = AVF_NSSpeechSynthesizerTests;
+			productName = AVF_NSSpeechSynthesizerTests;
+			productReference = 32749C161E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32749C201E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32749C301E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizerUITests" */;
+			buildPhases = (
+				32749C1D1E2F49E600D84086 /* Sources */,
+				32749C1E1E2F49E600D84086 /* Frameworks */,
+				32749C1F1E2F49E600D84086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32749C231E2F49E600D84086 /* PBXTargetDependency */,
+			);
+			name = AVF_NSSpeechSynthesizerUITests;
+			productName = AVF_NSSpeechSynthesizerUITests;
+			productReference = 32749C211E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32749BF51E2F49E600D84086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘松洪";
+				TargetAttributes = {
+					32749BFC1E2F49E600D84086 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+					};
+					32749C151E2F49E600D84086 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32749BFC1E2F49E600D84086;
+					};
+					32749C201E2F49E600D84086 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32749BFC1E2F49E600D84086;
+					};
+				};
+			};
+			buildConfigurationList = 32749BF81E2F49E600D84086 /* Build configuration list for PBXProject "AVF_NSSpeechSynthesizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32749BF41E2F49E600D84086;
+			productRefGroup = 32749BFE1E2F49E600D84086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32749BFC1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */,
+				32749C151E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests */,
+				32749C201E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32749BFB1E2F49E600D84086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32749C101E2F49E600D84086 /* LaunchScreen.storyboard in Resources */,
+				32749C0D1E2F49E600D84086 /* Assets.xcassets in Resources */,
+				32749C0B1E2F49E600D84086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C141E2F49E600D84086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C1F1E2F49E600D84086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34849D5740C04101787C2D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVF_NSSpeechSynthesizer/Pods-AVF_NSSpeechSynthesizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C11C476EF0A49C5B185875E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89771176D9B2368D82C0ABAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVF_NSSpeechSynthesizer/Pods-AVF_NSSpeechSynthesizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32749BF91E2F49E600D84086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32749C081E2F49E600D84086 /* ViewController.m in Sources */,
+				32749C3B1E2F4B7600D84086 /* AVSpeechSyn.m in Sources */,
+				32749C051E2F49E600D84086 /* AppDelegate.m in Sources */,
+				32749C021E2F49E600D84086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C121E2F49E600D84086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32749C1B1E2F49E600D84086 /* AVF_NSSpeechSynthesizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32749C1D1E2F49E600D84086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32749C261E2F49E600D84086 /* AVF_NSSpeechSynthesizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32749C181E2F49E600D84086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32749BFC1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */;
+			targetProxy = 32749C171E2F49E600D84086 /* PBXContainerItemProxy */;
+		};
+		32749C231E2F49E600D84086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32749BFC1E2F49E600D84086 /* AVF_NSSpeechSynthesizer */;
+			targetProxy = 32749C221E2F49E600D84086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32749C091E2F49E600D84086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32749C0A1E2F49E600D84086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32749C0E1E2F49E600D84086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32749C0F1E2F49E600D84086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32749C281E2F49E600D84086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32749C291E2F49E600D84086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32749C2B1E2F49E600D84086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AAD04E1C877DAD21F5E1DF /* Pods-AVF_NSSpeechSynthesizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AVF_NSSpeechSynthesizer/PrefixHeader.pch";
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32749C2C1E2F49E600D84086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B48305269EB83F4C42B5160 /* Pods-AVF_NSSpeechSynthesizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AVF_NSSpeechSynthesizer/PrefixHeader.pch";
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32749C2E1E2F49E600D84086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVF_NSSpeechSynthesizer.app/AVF_NSSpeechSynthesizer";
+			};
+			name = Debug;
+		};
+		32749C2F1E2F49E600D84086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVF_NSSpeechSynthesizer.app/AVF_NSSpeechSynthesizer";
+			};
+			name = Release;
+		};
+		32749C311E2F49E600D84086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVF_NSSpeechSynthesizer;
+			};
+			name = Debug;
+		};
+		32749C321E2F49E600D84086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = AVF_NSSpeechSynthesizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsh726..AVF-NSSpeechSynthesizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVF_NSSpeechSynthesizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32749BF81E2F49E600D84086 /* Build configuration list for PBXProject "AVF_NSSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32749C281E2F49E600D84086 /* Debug */,
+				32749C291E2F49E600D84086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32749C2A1E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32749C2B1E2F49E600D84086 /* Debug */,
+				32749C2C1E2F49E600D84086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32749C2D1E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32749C2E1E2F49E600D84086 /* Debug */,
+				32749C2F1E2F49E600D84086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32749C301E2F49E600D84086 /* Build configuration list for PBXNativeTarget "AVF_NSSpeechSynthesizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32749C311E2F49E600D84086 /* Debug */,
+				32749C321E2F49E600D84086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32749BF51E2F49E600D84086 /* Project object */;
+}
